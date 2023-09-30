@@ -148,8 +148,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login('gopthreya123@gmail.com', 'gopthreya45321gmail')
-    server.sendmail('gopthreya123@gmail.com', to, content)
+    server.login('gmailID', 'Pass')
+    server.sendmail('sme gmailID', to, content)
     server.close()
    
 if __name__ == "__main__": 
@@ -350,19 +350,19 @@ if __name__ == "__main__":
             name = query
             
             if 'best friend' in name:
-                num = "6303 177 679"
+                num = "ph no"
                 speak("what message should i sent for {name}")
                 message = takeCommand()
                 whatsapp.whatsapp(num,message)
 
             elif 'dad' in name:
-                num = "8688023233"
+                num = "ph no"
                 speak("what message should i sent for {name}")
                 message = takeCommand()
                 whatsapp(num,message)
 
             elif 'friends' in name:
-                group = "JOZ3yPo3Qiz0GN1YREggty"
+                group = "grp id"
                 speak(f"what message should i sent for {name}")
                 message = takeCommand()
                 whatsapp_grp(group,message)
