@@ -72,7 +72,7 @@ def takeCommand():
         return "None"
     return query
    
-#pywhatkit.sendwhatmsg('+918639438394','Hello this is jarvis',1,22)           
+#pywhatkit.sendwhatmsg('+91phno','Hello this is jarvis',1,22)           
 def whatsapp(number,message):
     number = '+91' + int(num)
     message = message
